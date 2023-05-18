@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+
+*{
+     margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.3rem;
+    background-color: #c4f5c8;
+  }
+
+  th {
+    text-align: center;
+    border-bottom: 2px solid black;
+    font-size: 1.7rem;
+    padding: 10px;
+    padding-bottom: 25px;
+  }
+
+  td {
+    text-align: center;
+    padding: 5px;
+    border-bottom: 2px solid black;
+  }
+
+  td:nth-child(1){
+    border: 2px solid black;
+    text-align: center;
+  }
