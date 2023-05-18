@@ -37,3 +37,4 @@ fetch('https://reqres.in/api/users')
             tableBody.appendChild(tableRow);
         })
     })
+    .catch(error => console.log(error));
